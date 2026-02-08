@@ -7,7 +7,7 @@ import random
 fake = Faker('en_US') 
 
 def create_dummy_db(num_records=5000000):
-    conn = sqlite3.connect('lab/tourism.db')
+    conn = sqlite3.connect('tourism.db')
     cursor = conn.cursor()
 
     # Create the professional structure
@@ -50,4 +50,4 @@ def create_dummy_db(num_records=5000000):
     print("Database generation complete!")
 
 if __name__ == "__main__":
-    create_dummy_db(5000000)
+    create_dummy_db(25)
