@@ -1,0 +1,14 @@
+# AI Model & Embeddings
+sentence-transformers>=3.0.0
+numpy<2.0.0
+
+# Vector Search (CHOOSE ONE)
+# Use this for standard PCs/Servers:
+faiss-cpu>=1.7.0 
+
+# OR uncomment this if you have an NVIDIA GPU + CUDA:
+# faiss-gpu>=1.7.0
+
+# Database & Utilities
+tqdm
+faker
